@@ -119,7 +119,6 @@ flex: 1 auto;
 
 }
 .fullscreen-body{
-    position: relative;
     z-index: 2;
     display: flex;
     flex: auto;
@@ -147,9 +146,9 @@ flex: 1 auto;
 
 .video_item {
 /* aspect-ratio: 16 / 9; */
-object-fit:cover;
+object-fit: cover;
 position: absolute;
-width: 100%;
+width: auto;
 height: 100%;
 padding-right: auto;
 padding-left: auto;
