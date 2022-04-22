@@ -316,7 +316,7 @@ background-color: #2f303a00;
 .footer {
     width: 1600px;
     height: 252px;
-    background: #3a2f38;
+    background: rgb(116, 27, 117);
     display: flex;
     justify-content: left;
     
@@ -341,7 +341,7 @@ flex-direction: row;
 
 }
 .footer-nav {      
-    color: hsl(310, 75%, 31%);
+    color: #FFFFFF;
 display: flex;
 justify-content: center;
 align-items: center;
