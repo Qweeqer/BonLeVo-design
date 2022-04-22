@@ -334,28 +334,38 @@ background-color: #2f303a00;
     width: 1600px;
     height: 252px;
     background: #3a2f38;
+    display: flex;
+    justify-content: left;
+    
+    
 }
-
 .logo-f {
-    padding: auto;
-    
-    
+    padding: auto; 
 }
 
 /* address */
 .footer-list{font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
-font-size: 30px;
+font-weight: 400px;
+font-size: 20px;
 line-height: auto;
 letter-spacing: 0.03em;
-color: #5d3ecc;
-float: right;
-padding-right: 1000px;
+color:#3a2f38;
+display: flex;
+justify-content: center;
+flex-direction: row;
+
 
 }
 .footer-nav {      
-    color: #FFFFFF
+    color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 100px;
+padding-right: 20px;
+  
+    
         
 }
 
