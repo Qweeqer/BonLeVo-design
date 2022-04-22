@@ -110,10 +110,9 @@ width: 1600px;
 height: 600px;
 display: flex;
 flex-direction: column;
-
 justify-content: center;
 align-items: center;
-padding: 50px 15px;
+
 position: relative;
 z-index: 2;
 flex: 1 auto;
@@ -130,7 +129,7 @@ flex: 1 auto;
        
 }
 .fullscreen-title {
-    font-size: 70px;
+    font-size: 40px;
     padding: 25px;
     font-weight: 700;
     justify-content: center;
@@ -139,7 +138,7 @@ flex: 1 auto;
     color: #000000
 }
 .fulscreen-text {
-    font-size: 40px;
+    font-size: 20px;
     letter-spacing: 15px;
     font-weight: 500;
     color: #000000;
@@ -151,7 +150,7 @@ object-fit: cover;
 position: absolute;
 width: 600px;
 height: 600px;
-
+z-index: 1;
 background-color: #2f303a00;
 
 }
