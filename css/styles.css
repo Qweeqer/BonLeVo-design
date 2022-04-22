@@ -4,7 +4,10 @@ body {
     height: 2349px;
     background: #FFFFFF;
 }
-
+@-ms-viewport {
+    width: device-width;
+    height: device-height;
+}
 /* Header */
 .header {
     width: 1600px;
