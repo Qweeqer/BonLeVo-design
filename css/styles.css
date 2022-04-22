@@ -11,9 +11,15 @@ body {
     height: 80px;
         background: #FFFFFF;
 margin-bottom: 80px;
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+align-items: center;
 }
 
-.nav-text {
+.nav-text {display: flex;
+    justify-content: center;
+    align-items: center;
   
     font-family: 'Raleway';
     font-style: normal;
@@ -22,23 +28,8 @@ margin-bottom: 80px;
 }
 
 .logo {
-    padding-top: 300px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-}
-
-.style-web {
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+    width: auto;
+    height: 80px;
 }
 
 .menu-nav {
@@ -57,8 +48,8 @@ margin-bottom: 80px;
     }
 
 .header-text {
+ 
     margin-left: 50px;
-    margin-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -251,6 +242,7 @@ background-color: #2f303a00;
     width: 1600px;
     height: 700px;
     background: #F5F4FA;
+    margin-bottom: 90px;
 }
 
 .text-title {
@@ -291,7 +283,7 @@ background-color: #2f303a00;
 
 .foto-personal {
     width: 270px;
-    height: 260px;
+    height: 370px;
     margin-bottom: 10px;
 }
 
