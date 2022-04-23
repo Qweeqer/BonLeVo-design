@@ -103,14 +103,16 @@ justify-content: center;
 align-items: center;
 
 position: relative;
-z-index: 2;
+z-index: 1;
 flex: 1 auto;
 
 }
 .fullscreen-body{
-    z-index: 2;
+    z-index: 1;
     display: flex;
-    
+    position: relative;
+    overflow: hidden;
+  
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -124,22 +126,22 @@ flex: 1 auto;
     justify-content: center;
     align-items: center;
     letter-spacing: 25px;
-    color: #000000
+    color: #FFFFFF;
 }
 .fulscreen-text {
     font-size: 20px;
     letter-spacing: 15px;
     font-weight: 500;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .video_item {
 /* aspect-ratio: 16 / 9; */
-object-fit: cover;
+object-fit:cover;
 position: absolute;
-width: 600px;
-height: 600px;
-z-index: 1;
+width: 100%;
+height: 100%;
+z-index: -100;
 background-color: #2f303a00;
 
 }
