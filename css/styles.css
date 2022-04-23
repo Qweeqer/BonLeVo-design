@@ -11,13 +11,13 @@ body {
 /* Header */
 .header {
     width: 1600px;
-    height: 150px;
+    height: 252px;
     background: rgb(116, 27, 117);
-margin-bottom: 0px;
+
 display: flex;
 justify-content: flex-start;
 flex-direction: row;
-align-items: center;
+/* align-items: center; */
 }
 
 .nav-text {display: flex;
@@ -38,7 +38,7 @@ a:focus {
 
 .logo {
     width: auto;
-    height: 150px;
+    height: auto;
 }
 
 .menu-nav {
@@ -345,7 +345,7 @@ color:#3a2f38;
 display: flex;
 justify-content: center;
 flex-direction: row;
-
+color: rgb(116, 27, 117);
 
 }
 .footer-nav {      
