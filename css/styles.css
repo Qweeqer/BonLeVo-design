@@ -11,9 +11,9 @@ body {
 /* Header */
 .header {
     width: 1600px;
-    height: 80px;
+    height: 150px;
     background: rgb(116, 27, 117);
-margin-bottom: 80px;
+margin-bottom: 0px;
 display: flex;
 justify-content: flex-start;
 flex-direction: row;
@@ -38,7 +38,7 @@ a:focus {
 
 .logo {
     width: auto;
-    height: 80px;
+    height: 150px;
 }
 
 .menu-nav {
