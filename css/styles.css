@@ -166,7 +166,8 @@ background-color: #2f303a00;
     margin-left: 700px;
     width: 200px;
     height: 50px;
-    background: rgb(116, 27, 117);
+    background: #F5F4FA;
+    color: #212121;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -181,7 +182,6 @@ background-color: #2f303a00;
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
 }
 
 /* Future */
@@ -207,7 +207,6 @@ background-color: #2f303a00;
 
 .future-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -219,7 +218,6 @@ background-color: #2f303a00;
 
 .future-text {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -263,7 +261,7 @@ background-color: #2f303a00;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
-    color: hsl(310, 75%, 31%);
+    color: rgb(116, 27, 117);
     padding-top: 90px;
 }
 
@@ -346,7 +344,7 @@ display: flex;
 justify-content: center;
 flex-direction: row;
 color: rgb(116, 27, 117);
-
+list-style: none;
 }
 .footer-nav {      
     color: #FFFFFF;
@@ -358,6 +356,19 @@ padding-right: 20px;
 background-color: rgb(116, 27, 117);
         
 }
-
+/* Portfolio */
+.paint-list{
+list-style: none;
+}
+.current,
+.button:hover,
+.button:focus,
+.order:hover,
+.order:focus{
+background-color: rgb(116, 27, 117);
+color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
 
 
