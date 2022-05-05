@@ -256,7 +256,6 @@ background-color: #2f303a00;
 
 .text-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -357,8 +356,26 @@ background-color: rgb(116, 27, 117);
         
 }
 /* Portfolio */
+.filter {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+justify-content: center;
+
+}
 .paint-list{
 list-style: none;
+
+}
+.paint-item{
+display: inline-block;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+margin: 30px;
+text-align: center;
 }
 .current,
 .button:hover,
