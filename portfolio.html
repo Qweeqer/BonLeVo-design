@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    
+    
     <title>Portfolio</title>
 </head>
 
@@ -19,7 +21,7 @@
         <a href="./index.html"><img src="./images/fbonlevo.jpg" alt="logotype Bon Le Vo D" width="auto" height="252"></a>
         <ul class="footer-list">
             <li><a href="./index.html" class="footer-nav">Studio</a></li>
-            <li><a href="./portfolio.html" class="footer-nav">Portfolio</a></li>
+            <li><a href="./portfolio.html" class="footer-nav current">Portfolio</a></li>
             <li><a class="footer-nav" href="#">Contacts</a></li>
             <li><a href="mailto:info@devstudio.com" class="footer-nav">info@bonlevo.com</a></li>
             <li><a href="tel:+380961111111" class="footer-nav">+38 096 111 11 11</a></li>
@@ -40,7 +42,8 @@
                 <li><button class="button" type="button">FOTO</button></li>
             </ul>
             <!-- Projects -->
-            <ul class="paint-list">
+            
+            <ul id="gallery" class="paint-list">
                 <li class="paint-item">
                     <video controls preload="auto" poster="./images/dog.jpg" width="370" height="370">
                         <source src="./video/videodog.mp4" type="video/mp4"></video>
@@ -63,12 +66,12 @@
                     <p>Video paint</p>
                 </li>
                 <li class="paint-item">
-                    <a href="./images/aristotelone.jpg" data-toggle="lightbox" data-gallery="gallery"><img src="./images/aristotelone.jpg" alt="Aristotel picture" class="img-fluid rounded" width="370" height="300"></a>
+                    <a class="lightbox" href="./images/aristotelone.jpg" data-lightbox="roadtrip"><img src="./images/aristotelone.jpg" alt="Aristotel picture" class="img-fluid rounded" width="370" height="300"></a>
                     <h2>Aristotel</h2>
                     <p>Picture</p>
                 </li>
                 <li class="paint-item">
-                    <a href="./images/aristotelone.jpg" data-toggle="lightbox" data-gallery="gallery"><img src="./images/aristoteltwo.jpg" alt="Aristotel picture" class="img-fluid rounded" width="370" height="300"></a>
+                    <a class="lightbox" href="./images/aristotelone.jpg" data-lightbox="roadtrip"><img src="./images/aristoteltwo.jpg" alt="Aristotel picture" class="img-fluid rounded" width="370" height="300"></a>
                     <h2>Aristotel</h2>
                     <p>Picture</p>
                 </li>
@@ -224,6 +227,19 @@
                 </li>
                 
             </ul>
+            <!-- Test code -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+            
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            <!-- End of test code -->
         </section>
     </main>
     <!--Footer-->
@@ -239,6 +255,7 @@
         </ul>
     
     </footer>
+    
 </body>
 
 </html>
