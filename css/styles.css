@@ -445,7 +445,27 @@ margin: 30px;
 text-align: center;
 width:370;
 height:370;
-
+}
+.paint-title{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgb(116, 27, 117);
+    text-shadow: -3px 5px 15px #000;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.paint-text{font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+text-shadow: -3px 5px 15px #000;
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
 }
 
 
