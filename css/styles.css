@@ -411,6 +411,37 @@ list-style: none;
     padding: 0px;
 }
 
+/* variant 2 */
+.paint-item a:hover {
+    opacity: 0.5;
+}
+.paint-item a {
+    display: block;
+    position: relative;
+}
+.paint-item a:after {
+    content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;
+    height: 35px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}
+.paint-item:hover>a:after {
+    visibility: visible;
+}
+#gallery:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
 /* End test code */
 
 .paint-item{
